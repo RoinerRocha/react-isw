@@ -4,10 +4,10 @@ import Body from './components/body/Body';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container mt-2">
       <Header text={'My first react App'}/>
       <Body />
-    </div>
+    </div>   
   );
 }
 
