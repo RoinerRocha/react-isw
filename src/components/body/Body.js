@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./Body.css";
 import List1 from '../list/List1';
-import Comentarios from '../list/Comentarios';
+import Table from '../list/Table';
 
 import List from "../list/List";
 
@@ -27,7 +27,7 @@ function Body(props) {
 			<List1 persona="Andres"/>
 			<List1 persona="Roiner"/>
 			<List1 persona="Pedro"/>
-			<Comentarios sujeto={sujeto} />
+			<Table/>
 			
 		</React.Fragment>
 	);
