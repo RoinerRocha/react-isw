@@ -1,15 +1,23 @@
-import React, {useState} from "react";
-import "./Header.css";
+import React, { Component } from 'react';
+import './Header.css';
 
-function Header(props) {
-	console.log(props);
-  
+export default class Header extends Component {
+	render() {
+		return (
+			<header>
+				<div className="titulo">React juego</div>
+				<div>
+					<button className="boton-reiniciar">
+						Reiniciar
+					</button>
+				</div>
+				<div className="titulo">
+					intentos
+				</div>
+			</header>	
+				
+		);	
+	}
+};
 
-	return (
-		<React.Fragment>
-			<h1>{props.text}</h1>
-		</React.Fragment>
-	);
-}
 
-export default Header;
